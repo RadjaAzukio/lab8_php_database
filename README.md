@@ -394,3 +394,14 @@ function is_select($var, $val)
 
 !
 
+### Menghapus Data(*Delete*)
+Buat file baru dengan **hapus.php**
+```
+<?php
+include_once 'koneksi.php';
+$id = $_GET['id'];
+$sql = "DELETE FROM data_barang WHERE id_barang = '{$id}'";
+$result = mysqli_query($conn, $sql);
+header('location: index.php');
+?>
+```

@@ -4,13 +4,13 @@
 <table>
   <tr>
     <td>Nama Field</td>
-    <td>INT</td>
+    <td>Tipe Data</td>
     <td>Ukuran</td>
     <td>Keterangan</td>
   </tr>
   <tr>
     <td>id_Barang</td>
-    <td>INTtd>
+    <td>INT<td>
     <td>10</td>
     <td>PRIMARY KEY, AUTO_INCREMET</td>
   </tr>

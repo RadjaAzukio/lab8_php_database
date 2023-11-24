@@ -54,7 +54,7 @@
 
 ### Membuat Database
 ```
-CREATE DATABASE latihan1;
+CREATE DATABASE databarang;
 ```
 
 ### Membuat Tabel

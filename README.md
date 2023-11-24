@@ -69,7 +69,8 @@ harga_jual decimal(10,0),
 stok int(4)
 );
 ```
-!
+![image](https://github.com/RadjaAzukio/lab8_php_database/assets/115551911/8bf4d272-4ab3-4513-b839-a19ed0b296f1)
+
 
 ### Memambahkan Data
 ```
@@ -78,18 +79,19 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 
 ('Elektronik', 'HP Xiaomi Android', 'hp_xiaomi.jpg', 1000000, 1400000, 5),
 ('Elektronik', 'HP OPPO Android', 'hp_oppo.jpg', 1800000, 2300000, 5);
 ```
+![image](https://github.com/RadjaAzukio/lab8_php_database/assets/115551911/f3e18d9c-32e8-41b0-ab40-eb11fa0eb85c)
 
-!
 
 ### Membuat Program CRUD
 Buat folder lab8_php_database pada root directory web server (d:\xampp\htdocs)
 
-!
+![image](https://github.com/RadjaAzukio/lab8_php_database/assets/115551911/10f8d19e-d68a-4ede-a7a7-70538e47c7b0)
 
 Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:
 http://localhost/lab8_php_database/
 
-!
+![a](https://github.com/RadjaAzukio/lab8_php_database/assets/115551911/e34738f6-154b-4a48-8059-91197c05543e)
+
 
 ### Membuat file koneksi database
 Buat file baru dengan nama **koneksi.php**
@@ -109,7 +111,8 @@ die();
 ````
 Buka melalui browser untuk menguji koneksi database (untuk menyampaikan pesan koneksi berhasil, *uncomment* pada perintah ``echo "koneksi berhasi"``
 
-!
+![aa](https://github.com/RadjaAzukio/lab8_php_database/assets/115551911/530696d1-c679-43ba-9aa5-cdd550381cbe)
+
 
 ### Membuat file index untuk menampilkan data 
 Buat file baru dengan nama **index.php**
@@ -178,7 +181,8 @@ Buat file baru dengan nama **index.php**
 </html>
 ```
 
-!
+![image](https://github.com/RadjaAzukio/lab8_php_database/assets/115551911/1f5b7eaa-444b-44a1-b6d3-b099d0f0a2ff)
+
 
 ### Menambah data (*Create*)
 Buat file baru dengan nama **tambah.php**
@@ -263,7 +267,8 @@ stok, gambar) ';
 </html>
 ```
 
-!
+![image](https://github.com/RadjaAzukio/lab8_php_database/assets/115551911/79e5ebc6-c31d-4076-b0c8-f65476fa606e)
+
 
 ### Mengubah Data(*Update*)
 Buat file baru dengan nama **ubah.php**
@@ -392,7 +397,8 @@ function is_select($var, $val)
 </html>
 ```
 
-!
+![image](https://github.com/RadjaAzukio/lab8_php_database/assets/115551911/21690020-bd0e-4e67-8863-31de2fd98a18)
+
 
 ### Menghapus Data(*Delete*)
 Buat file baru dengan **hapus.php**
